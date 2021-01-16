@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <title>Admin Insert</title>
+    <link rel="stylesheet" href="cancel.css">
+</head>
+
+<body style="text-align: center; background-image: url(https://cdn.home-designing.com/wp-content/uploads/2014/08/playful-bedroom-decor.jpeg); background-repeat: no-repeat; background-size: cover; font-size: larger;">
+    <div class="container">
+        <div class="header">
+            <h1>Insert Rooms</h1>
+        </div>
+        <div class="main">
+            <form method="POST" onsubmit="return validate();" action="http://localhost/example_php/Hotel/adminroominsert.php">
+                <span>
+                   
+                    <input type="text" placeholder="roomtype" name="roomtype" id="roomtype">
+                </span><br>
+                <span>
+                  
+                    <input type="text" placeholder="cost" name="cost" id="cost">
+                </span><br>
+                <button type="submit">submit</button>
+
+            </form>
+            <a href="http://localhost/example_php/Hotel/adminview.php">
+                <button type="reset">View Reservations</button>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
